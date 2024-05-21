@@ -13,7 +13,7 @@ export const MetricsBox = ({ weatherData, unitSystem }) => {
     <div className={styles.wrapper}>
       <MetricsCard
         title={"Humidity"}
-        iconSrc={"/icons/humidity.png"}
+        iconSrc={"/icons/wind.png"}
         metric={weatherData.main.humidity}
         unit={"%"}
       />
